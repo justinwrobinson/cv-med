@@ -426,6 +426,13 @@ Media Section
         padding: 0;
     }
 
+    #headshot-full-img {
+        height: auto;
+        width: auto;
+        border-radius: 30px;
+        float: none;
+    }
+
     #about p {
         padding-top: 2%;
     }
@@ -439,11 +446,8 @@ Media Section
         padding: 3%;
     }
 
-    #headshot-full-img {
-        height: auto;
-        width: auto;
-        border-radius: 30px;
-        float: none;
+    .cv-square {
+        max-height: 500px;
     }
 
     .job-details, .job-dates {
@@ -452,6 +456,7 @@ Media Section
 
     #skills {
         padding: 4rem 1rem;
+        max-height: fit-content;
     }
 
     .carousel-item-custom .card {
