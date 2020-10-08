@@ -130,20 +130,20 @@ About Me
 }
 
 .about-wrapper {
-    padding: 2% 0;
+    padding-top: 3%;
     text-align: center;
     background-color: ghostwhite;
 }
 
 #headshot-full-img {
-    max-height: 540px;
+    max-height: 450px;
     max-width: 100%;
     border-radius: 30px;
     float: right;
 }
 
 .about-me {
-    padding: 3%;
+    padding: 3% 3% 0 3%;
 }
 
 .about-me-col-left {
@@ -198,8 +198,11 @@ background Section
 }
 
 #background .background-col {
-    text-align: center;
     padding: 4% 6% 2%;
+}
+
+#background .background-col p{
+    text-align: justify;
 }
 
 #background i {
