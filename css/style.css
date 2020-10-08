@@ -166,7 +166,7 @@ About Me
 
 .about-me-text-bio {
     color: black;
-    text-align: left;
+    text-align: justify;
     display: block;
     margin-bottom: 2%;
 }
