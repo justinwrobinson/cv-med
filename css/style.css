@@ -1,9 +1,11 @@
 html {
     scroll-behavior: smooth;
+    width: 100%;
 }
 
 body {
     font-family: Open Sans, sans-serif;
+    width: 100%;
 }
 
 h1 {
@@ -340,13 +342,14 @@ Strengths Section
 
 
 /*
-*
+
 Certifications Section
-*
+
 */
 .cv-certifications {
     background: url(../images/roses_luxury.jpg);
     background-size: cover;
+    overflow-x: hidden;
 }
 
 .certifications-container {
@@ -357,9 +360,9 @@ Certifications Section
 }
 
 /*
-*
+
 Skills Section
-*
+
 */
 .skills-container {
     text-align: left;
@@ -448,6 +451,7 @@ Media Section
 
     .cv-square {
         max-height: 600px;
+        max-width: 500px;
     }
 
     .cv-experience-row {
