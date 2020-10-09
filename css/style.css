@@ -1,11 +1,9 @@
 html {
     scroll-behavior: smooth;
-    width: 100%;
 }
 
 body {
     font-family: Open Sans, sans-serif;
-    width: 100%;
 }
 
 h1 {
@@ -130,20 +128,20 @@ About Me
 }
 
 .about-wrapper {
-    padding-top: 3%;
+    padding: 2% 0;
     text-align: center;
     background-color: ghostwhite;
 }
 
 #headshot-full-img {
-    max-height: 450px;
+    max-height: 540px;
     max-width: 100%;
     border-radius: 30px;
     float: right;
 }
 
 .about-me {
-    padding: 3% 3% 0 3%;
+    padding: 3%;
 }
 
 .about-me-col-left {
@@ -166,7 +164,7 @@ About Me
 
 .about-me-text-bio {
     color: black;
-    text-align: justify;
+    text-align: left;
     display: block;
     margin-bottom: 2%;
 }
@@ -190,7 +188,7 @@ background Section
 }
 
 #background h2 {
-    padding-top: 2em;
+    padding-top: 2rem;
 }
 
 #background .background-row {
@@ -198,11 +196,8 @@ background Section
 }
 
 #background .background-col {
+    text-align: center;
     padding: 4% 6% 2%;
-}
-
-#background .background-col p{
-    text-align: justify;
 }
 
 #background i {
@@ -345,27 +340,26 @@ Strengths Section
 
 
 /*
-
+*
 Certifications Section
-
+*
 */
 .cv-certifications {
     background: url(../images/roses_luxury.jpg);
     background-size: cover;
-    overflow-x: hidden;
 }
 
 .certifications-container {
     padding: 10% 5%;
 }
 .certifications-container h4 {
-    margin-top: 2rem;
+    margin-top: 5rem;
 }
 
 /*
-
+*
 Skills Section
-
+*
 */
 .skills-container {
     text-align: left;
@@ -386,13 +380,13 @@ Media Section
 *
 */
 #media {
-    padding-top: 2%;
+    padding: 4rem 0;
     text-align: center;
     background-color: #57575C;
 }
 
 .carousel-item-custom {
-    padding: 4%;
+    padding-top: 4%;
 }
 
 .carousel-item-custom a:hover {
@@ -402,24 +396,25 @@ Media Section
 .carousel-item-custom .card {
     margin: auto;
     width: 40%;
-    height: 34vw;
+    height: 525px;
     text-align: left;
 }
 
 .carousel-item-custom .card-img-top {
     width: 100%;
-    height: 25vw;
+    height: 400px;
     object-fit: cover;
 }
 
-.carousel-item-custom .card-body {
+ .carousel-item-custom .card-body {
     width: 100%;
-    height: 100%;
-}
+    height: 125px;
+ }
 
 #footer {
+    font-size: smaller;
     text-align: center;
-    line-height: 4;
+    line-height: 2;
 }
 
 /* Mobile + Tablet Styling */
@@ -430,13 +425,6 @@ Media Section
 
     #title-banner {
         padding: 0;
-    }
-
-    #headshot-full-img {
-        height: auto;
-        width: auto;
-        border-radius: 30px;
-        float: none;
     }
 
     #about p {
@@ -452,29 +440,46 @@ Media Section
         padding: 3%;
     }
 
-    .cv-square {
-        max-height: 600px;
-    }
-
-    .cv-experience-row {
-        text-align: left;
-        padding-top: 1rem;
+    #headshot-full-img {
+        height: auto;
+        width: auto;
+        border-radius: 30px;
+        float: none;
     }
 
     .job-details, .job-dates {
         width: 100%;
     }
 
-    #skills {
-        padding: 4rem 2rem;
-        max-height: fit-content;
+    #certifications, #skills  {
+        padding: 4rem 1rem;
     }
 
+    
     .carousel-item-custom .card {
-        margin: auto;
-        width: 60%;
-        height: 100%;
-        text-align: left;
+        height: 300px;
+        width: 300px;
+    }
+
+    .carousel-item-custom .card-img-top {
+        height: 190px;
+        object-fit: cover;
+    }
+    
+     .carousel-item-custom .card-body {
+        height: 110px;
+     }
+
+    .card-body h4 {
+        font-family: Mulish;
+        font-size: 1rem;
+        font-weight: 300;
+    }
+    
+    .card-body h5 {
+        font-family: Mulish;
+        font-size: .8rem;
+        font-weight: 400;
     }
 
 }
