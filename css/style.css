@@ -359,7 +359,7 @@ Certifications Section
     padding: 10% 5%;
 }
 .certifications-container h4 {
-    margin-top: 5rem;
+    margin-top: 2rem;
 }
 
 /*
@@ -458,7 +458,7 @@ Media Section
 
     .cv-experience-row {
         text-align: left;
-        padding: 1rem .8rem;
+        padding-top: 1rem;
     }
 
     .job-details, .job-dates {
